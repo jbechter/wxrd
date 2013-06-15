@@ -1,0 +1,15 @@
+Linux Driver for the
+RadioShack 12-258 S.A.M.E. Weather Radio
+
+(C) 2013, bechter.com - All rights reserved (see license)
+
+building the driver:
+
+    gcc -lusb wxrd.c -o wxrd
+
+building the Java client:
+
+    javac -classpath $LIB/activation.jar:$LIB/mail.jar:$LIB/log4j-1.2.8,jar src/com/bechter/wxrd/client/*.java
+
+
+See http://prjects.bechter.com/wxrd/ for more information
