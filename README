@@ -9,7 +9,7 @@ building the driver:
 
 building the Java client:
 
-    javac -classpath $LIB/activation.jar:$LIB/mail.jar:$LIB/log4j-1.2.8,jar src/com/bechter/wxrd/client/*.java
+    javac -classpath $LIB/activation.jar:$LIB/mail.jar:$LIB/log4j-1.2.8.jar src/com/bechter/wxrd/client/*.java
 
 
-See http://prjects.bechter.com/wxrd/ for more information
+See http://projects.bechter.com/wxrd/ for more information
